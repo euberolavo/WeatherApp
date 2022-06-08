@@ -17,6 +17,12 @@
     "plugins": [
         "react"
     ],
-    "rules": {
-    }
+    "rules": {},
+    "eslint quotes": [
+        "error",
+        "double",
+        {
+            "avoidEscape": true
+        }
+    ]
 }
