@@ -17,12 +17,7 @@
     "plugins": [
         "react"
     ],
-    "rules": {},
-    "eslint quotes": [
-        "error",
-        "double",
-        {
-            "avoidEscape": true
-        }
-    ]
+    "rules": {
+        // "quotes": ["error","single", {"singleQuote": true }]
+    }
 }

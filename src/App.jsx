@@ -16,12 +16,12 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col w-full h-screen items-center justify-center">
-      <form onSubmit={handleSubmit}>
+    <div className="flex flex-col w-full h-screen items-center sm:justify-center bg-slate-300 p-4">
+      <form onSubmit={handleSubmit} className="fixed bottom-0 w-full flex p-4 sm:relative justify-center">
         <input
           type="text"
           placeholder="Cidade"
-          className="p-3 rounded-lg outline-none"
+          className="p-3 rounded-lg outline-none w-full sm:max-w-[300px] flex-1"
           value={city}
           onChange={({ target: { value } }) => setCity(value)}
         />
